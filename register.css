@@ -1,0 +1,85 @@
+/* Add padding to containers */
+body{
+    border: 1px solid white;
+    outline: 7px ;
+    outline-style: inset ;
+    outline-color: rgba(217, 216, 228, 0.579);
+    background-color: rgb(100, 49, 100);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.container{
+    padding: 16px;
+    
+}
+p#Terms
+{
+    padding-left:10px ;
+}
+/* Full-width input fields*/
+label[for=email],label[for=password],label[for=Repeatpass]
+{
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+input[type=text],input[type=password]
+{
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 10px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus,input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr{
+    border: 3px solid white;
+  
+}
+/* Set a style for the submit/register button */
+.button{
+    padding-left: 4em;
+    padding-right: 4em;
+
+    
+}
+.Registration
+{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 98%;
+    opacity: 0.9;
+
+}
+a{
+    color: dodgerblue;
+
+}
+a:hover{
+    color: white;
+   
+}
+.btn{
+    padding: 7px;
+
+    
+}
+
+
+.signin{
+    background-color: #f1f1f1;
+    text-align: center;
+    color:grey
+
+}
+
